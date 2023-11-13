@@ -1,5 +1,9 @@
+import random
+
 print("You come across a long winding path. You can make a choice to go left or right to find a destination.")
 l = 3
+test = random.randint(1, 10)
+print(test)
 while True:
     direction = input("Do you go left or right? ")
     if direction == "left":
@@ -23,6 +27,6 @@ if boo == True:
 elif boo == False:
     print("yayyyy cave story")
 else:
-    print("You borke the game ;-;")
+    print("You broke the game ;-;")
     
-# Path: Test.py
+# This is so much easier than Java :( why do we even use Java
